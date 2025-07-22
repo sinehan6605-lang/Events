@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Form</title>
+</head>
+<body>
+
+  <form>
+    <center>
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+          <td>Age:</td>
+          <td><input type="number" placeholder="Enter your Age"></td>
+        </tr>
+        <tr>
+          <td>Comments:</td>
+          <td>
+            <select>
+              <option>Excellent</option>
+              <option>Good</option>
+              <option>Bad</option>
+              <option>Worst</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <select>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Others</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="button" onclick="submitOrder()">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </form>
+
+  <script>
+    function submitOrder() {
+      alert("Thanks for shopping!");
+    }
+  </script>
+
+</body>
+</html>
